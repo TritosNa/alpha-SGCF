@@ -1,0 +1,15 @@
+# α-SGCF
+Codes for reproducing our paper *"α-SGCF: A new hybrid similarity using $\alpha$-divergence for collaborative filtering in sparse data"*. Run **handlerAlpha.py**.
+
+Required Packages:
+- **Surprise** (See https://surprise.readthedocs.io/en/stable/).
+- Other common machine learning packages such as sklearn, etc.
+
+Remarks:
+- Movielens-100K and Movielens-1M datasets are built-ins of the **Surprise** package, so I only upload the FilmTrust and Yahoo Music dataset.
+- For other comparative similarity methods, you may refer to another repository of mine at https://github.com/Kwan1997/rec-similarity.
+
+Warning:
+- These codes (including those in my other repository) have bad readability and user experience, and there are many functions that are not used. Be cautious.
+
+⚠️**Update**⚠️ (12/24/2024): You may need to comment everything about the package "klcore"; it is not used anywhere but can report errors. (Thanks some of my group members for letting me know this.)
